@@ -16,7 +16,7 @@ namespace Web.Controllers
         }
     public IActionResult JSONView()
         {
-            return Json(new {name="JSON",description = "This is second controller"});
+            return Json(new {name="JSON",description = "This is second controller quotes"});
         }
         
         public IActionResult Displayview()
@@ -26,7 +26,7 @@ namespace Web.Controllers
 
         public IActionResult HTML()
         {
-            return Content("<html><body><h1>This is html content</h1> </body></html>","text/html");
+            return Content("<html><body><h1>This is Quotes content</h1> </body></html>","text/html");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
