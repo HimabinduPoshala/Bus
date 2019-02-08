@@ -5,4 +5,4 @@ Created Quotes Controller.
 Created floders using CL1
 Created Text,View,HTML,JSON.
 Written simple function.
-![Screenshot]
+![Screenshot](https://github.com/HimabinduPoshala/Bus/blob/master/Screenshot%20.png)
