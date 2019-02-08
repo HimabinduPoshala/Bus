@@ -20,9 +20,9 @@ namespace UnitTests
         [InlineData(2)]
         [InlineData(6)]
         [InlineData(8)]
-        public void Iseven_WorksWithManyInputs(int val)
+        public void Iseven_WorksWithManyInputs(int value)
         {
-            Assert.True(Iseven(val));
+            Assert.True(Iseven(value));
         }
         int sum(int a, int b)
         {
